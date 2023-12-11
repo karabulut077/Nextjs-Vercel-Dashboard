@@ -2,7 +2,7 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
  
 export default function Layout({ children }: { children: React.ReactNode }) {
-  console.log("layout.tsx rendered");
+  console.log("layout.tsx rendered-emergency fixed");
   
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
